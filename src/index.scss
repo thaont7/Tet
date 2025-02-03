@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-custom{
+  background-color: #DD1F36 !important;
+  .container-fluid{
+      a{
+          color: #edca6d;
+      }
+  }
+}
+
+.wrap-content{
+  flex-direction: column;
+}
+
+.wrap-img{
+  .img-top{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 800px !important;
+  max-height: 800px !important;
+  object-fit: cover; /* Đảm bảo hình ảnh được cắt hoặc thu nhỏ để phù hợp */
+}
+
+.cast-coins{
+  flex-direction: column;
+  background-color: #edca6d;
+  h3{
+      color: red;
+  }
+  .wrap-img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img{
+          width: 70%;
+          height: 100%;
+          object-fit: cover;
+      }
+      .wrap-span{
+          width: 11%;
+          position: absolute;
+          bottom: 23%;
+          left: 44%;
+          z-index: 999;
+          background-color: #DD1F36;
+          span{
+              font-size: 25px;
+              color: #edca6d;
+          }
+      }
+  }
+  .btn-custom{
+      color: #edca6d;
+  }
+}
+
+.color-yellow{
+  color: #edca6d;
+}
+
+#exampleModal{
+  .modal-content{
+    .modal-header{
+      background-color: #DD1F36;
+    }
+    .modal-footer{
+      background-color: #DD1F36;
+      button{
+        background-color: #edca6d;
+        color:#DD1F36;
+      }
+    }
+  }
+}
+
+.wish{
+  text-align: center;
+  background-color: #edca6d;
+  color:#DD1F36;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrap-img{
+      .img-top{
+          height: 500px;
+      }
+  }
+  .carousel-item img {
+      height: 300px !important;
+  }
+}
