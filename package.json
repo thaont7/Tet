@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build dist",
+    "build": "react-scripts build && ren build dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^9.19.0"
+    "eslint": "^9.19.0",
+    "eslint-config-react-app": "^7.0.1"
   }
 }
